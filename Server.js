@@ -11,8 +11,8 @@ var express = require('express'),
 	nJwt = require('njwt'),  
 	apiVersion = 'v43.0',
 	domainName='localhost:8080',
-	jwt_consumer_key = '3MVG9KlmwBKoC7U3WdSA4MVwcRfOjKNwiFz4h3EP39CoaNwQKylEUuF4qg6tXwey07rxt1mgQ3JyDSni9CgB_', 
-	consumer_secret='DE8BADB876FC4A58E4E874AD4BB98C42EE86916AA12FA82AFFA7A89A20146C89',
+	jwt_consumer_key = '<key>', 
+	consumer_secret='<secret>',
 	jwt_aud = 'https://test.salesforce.com', 
 	callbackURL='http://localhost:8080/oauthcallback.html';
 
